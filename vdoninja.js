@@ -1,11 +1,11 @@
 //
 // Copyright (c) 2021 Steve Seguin. All Rights Reserved.
-//  Use of this source code is governed by the APGLv3 open-source 
+// Use of this source code is governed by the AGPLv3 open-source license.
 //
 // This is VDO.Ninja-specific handshake server implementation
 // It has better routing isolation and performance than a generic fan-out implementation
 //
-// >> Use at your own risk, as it still may contain bugs or security vunlerabilities <<
+// >> Use at your own risk, as it still may contain bugs or security vulnerabilities <<
 //
 ///// INSTALLATION
 // sudo apt-get update
@@ -14,7 +14,6 @@
 // sudo apt-get install npm -y
 // sudo npm install express
 // sudo npm install ws
-// sudo npm install fs
 // sudo npm install cors
 // sudo add-apt-repository ppa:certbot/certbot  
 // sudo apt-get install certbot -y

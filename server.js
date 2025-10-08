@@ -1,7 +1,7 @@
 //
 // Copyright (c) 2021 Steve Seguin. All Rights Reserved.
-//  Use of this source code is governed by the APGLv3 open-source 
-//  Use at your own risk, as it may contain bugs or security vunlerabilities
+// Use of this source code is governed by the AGPLv3 open-source license.
+// Use at your own risk, as it may contain bugs or security vulnerabilities.
 //
 ///// INSTALLATION
 // sudo apt-get update
@@ -10,7 +10,6 @@
 // sudo apt-get install npm -y
 // sudo npm install express
 // sudo npm install ws
-// sudo npm install fs
 // sudo add-apt-repository ppa:certbot/certbot  
 // sudo apt-get install certbot -y
 // sudo certbot certonly // register your domain
@@ -44,5 +43,3 @@ websocketServer.on('connection', (webSocketClient) => {
     });
 });
 server.listen(443, () => {console.log(`Server started on port 443`) });
-
-
