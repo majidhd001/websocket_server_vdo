@@ -6,7 +6,6 @@ var WebSocket = require("ws");
 
 var app = express();
 
-// اگر خواستی فایل‌ها رو هم سرو کنی
 app.use(express.static(__dirname));
 
 var server = http.createServer(app);
